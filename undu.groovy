@@ -9,7 +9,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
 
     if (room.indexOf("언성듀엣")!=-1){
         if (msg.indexOf("/시프트롤")!=-1){
-            replier.reply(sifter)
+            replier.reply(shifter)
             if(shifter >= depth){
                 replier.reply("성공")
             }
