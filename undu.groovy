@@ -5,10 +5,10 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
     var d6 = Math.floor(ran*6)
     var binder = (d6+1)+(d6+1)
     var shifter = d10+1
-    var depth = 5 //이계심도
+    var depth = 4 //이계심도
 
     if (room.indexOf("언성듀엣")!=-1){
-        if (msg.indexOf("/시프트롤")!=-1){
+        if (msg.indexOf("/시프터롤")!=-1){
             replier.reply(shifter)
             if(shifter >= depth){
                 replier.reply("성공")
@@ -16,11 +16,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
             if(shifter < depth){
                 replier.reply("실패")
             }
-    }
-    }
-
-        if (room.indexOf("언성듀엣")!=-1){
-        if (msg.indexOf("/바인더롤")!=-1){
+        }else if (msg.indexOf("/바인더롤")!=-1){
             replier.reply(binder)
             if(binder >= depth){
                 replier.reply("성공")
@@ -28,13 +24,9 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
             if(binder < depth){
                 replier.reply("실패")
             }
-    }
-    }
-
-    if (room.indexOf("언성듀엣")!=-1){
-        if (msg.indexOf("/변이저항")!=-1){
+        }else if (msg.indexOf("/변이저항")!=-1){
             replier.reply(d6)
-    }
+        }
     }
 
 }
