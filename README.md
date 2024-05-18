@@ -1,5 +1,3 @@
-![img](https://pbs.twimg.com/media/FHqjn1KagAQwdKB?format=jpg)
-
 # Unsung-duet DICE
 
 카카오톡 채팅 봇을 변형한 언성듀엣용 랜덤 주사위 입니다.
@@ -22,3 +20,6 @@
 - replier는 답장기능
 - ImageDB는 프로필 이미지에 사용됩니다.
 
+### 예시 스크린샷
+
+![img](https://pbs.twimg.com/media/FHqjn1KagAQwdKB?format=jpg)
