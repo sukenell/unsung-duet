@@ -1,6 +1,6 @@
 function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName) {
 
-    var ran = Math.random()
+    var ran = Math.random() 
     var d10 = Math.floor(ran*10)
     var d6 = Math.floor(ran*6)
     var binder = (d6+1)+(d6+1)
